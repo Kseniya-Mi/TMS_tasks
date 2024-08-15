@@ -35,7 +35,7 @@ public class Task3 {
             System.out.println("Warm");
         else if (temperature < maxTemp && temperature > minTemp)
             System.out.println("Normal");
-        else if (temperature < minTemp)
+        else if (temperature <= minTemp)
             System.out.println("Cold");
     }
 
