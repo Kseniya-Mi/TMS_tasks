@@ -9,6 +9,10 @@ public class CreditCard {
         this.currentBalance = currentBalance;
     }
 
+    int checkMoney(){
+        return currentBalance;
+    }
+
     int addMoney(int amountForAdd){
         currentBalance += amountForAdd;
         return currentBalance;
@@ -16,10 +20,6 @@ public class CreditCard {
 
     int withdrawMoney(int amountForWithdraw){
         currentBalance -= amountForWithdraw;
-        return currentBalance;
-    }
-
-    int checkMoney(){
         return currentBalance;
     }
 }
