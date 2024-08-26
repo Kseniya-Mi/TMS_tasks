@@ -1,6 +1,6 @@
 package Tasks_7_lesson.hospital;
 
-public class Therapist extends Hospital {
+public class Therapist extends Doctor {
 
     Therapist() {}
 
