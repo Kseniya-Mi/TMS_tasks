@@ -20,15 +20,15 @@ public class Main {
 
         switch(Patient.plan){
             case 1:
-                Hospital doctor1 = new Surgeon();
+                Doctor doctor1 = new Surgeon();
                 doctor1.treat();
                 break;
             case 2:
-                Hospital doctor2 = new Dentist();
+                Doctor doctor2 = new Dentist();
                 doctor2.treat();
                 break;
             default:
-                Hospital doctor3 = new Therapist();
+                Doctor doctor3 = new Therapist();
                 doctor3.treat();
                 break;
         }
