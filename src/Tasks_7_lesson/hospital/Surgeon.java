@@ -1,11 +1,11 @@
 package Tasks_7_lesson.hospital;
 
-public class Surgeon extends Hospital {
+public class Surgeon extends Doctor {
 
     Surgeon(){};
 
-    Surgeon(String doctor) {
-        super(doctor);
+    Surgeon(String name) {
+        super(name);
     }
 
     @Override
