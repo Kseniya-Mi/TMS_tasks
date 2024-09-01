@@ -1,15 +1,15 @@
-package Tasks_9_lesson;
+package Tasks_9_lesson.task1;
 
-public class Director implements Workers{
+public class Worker implements Workers{
     private String name;
 
-    Director(String name){
+    Worker(String name){
         this.name = name;
     }
 
     @Override
     public void printJobTittle() {
-        System.out.println("This is director.");
+        System.out.println("This is worker.");
     }
 
     @Override

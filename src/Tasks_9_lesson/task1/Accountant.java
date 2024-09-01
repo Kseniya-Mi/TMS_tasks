@@ -1,15 +1,15 @@
-package Tasks_9_lesson;
+package Tasks_9_lesson.task1;
 
-public class Worker implements Workers{
+public class Accountant implements Workers{
     private String name;
 
-    Worker(String name){
+    Accountant(String name){
         this.name = name;
     }
 
     @Override
     public void printJobTittle() {
-        System.out.println("This is worker.");
+        System.out.println("This is accountant.");
     }
 
     @Override
