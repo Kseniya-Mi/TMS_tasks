@@ -74,7 +74,7 @@ public class StringTasks {
         if(!str3.equals(maxString) && !str3.equals(minString))
             middleString = str3;
 
-        System.out.println(minString + " " + middleString + " " + maxString);
+        System.out.println(minString + "\n" + middleString + "\n" + maxString);
     }
 
     public static void getLengthLessAverage(String str1, String str2, String str3){
