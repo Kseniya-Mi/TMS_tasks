@@ -9,7 +9,7 @@ public class RegexTraining {
         String str = scanner.nextLine();
 
         //task1
-        getAbbreviation(str);
+       // getAbbreviation(str);
 
         //task2
         getInformation(str);
@@ -29,6 +29,16 @@ public class RegexTraining {
 
     public static void getInformation(String str){
         String[] words = str.split("\\s+");
-
+        for (String word : words) {
+            if (word.matches("[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,}")) {
+                System.out.println("E-mail: " + word);
+            }
+            if (word.matches("\\+\\(\\d{2}\\)\\d{7}")) {
+                System.out.println("Telephone: " + word);
+            }
+            if (word.matches("\\d{4}-\\d{4}-\\d{2}")) {
+                System.out.println("Number of document: " + word);
+            }
+        }
     }
 }
