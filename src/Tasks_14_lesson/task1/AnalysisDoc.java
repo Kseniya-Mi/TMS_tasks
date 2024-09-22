@@ -1,11 +1,11 @@
-package Tasks_14_lesson;
+package Tasks_14_lesson.task1;
 
 import java.io.*;
 
 public class AnalysisDoc {
     public static void main(String[] args) {
-        String inputFile = "src/Tasks_14_lesson/Romeo and Julietta.txt";
-        String outputFile = "src/Tasks_14_lesson/Longest word.txt";
+        String inputFile = "src/Tasks_14_lesson/task1/Romeo and Julietta.txt";
+        String outputFile = "src/Tasks_14_lesson/task1/Longest word.txt";
 
         String longestWord = "";
 
